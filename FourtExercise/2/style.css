@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  justify-content: center;
+}
+
+div{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+section {
+  display: flex;
+  max-width: 70vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article {
+  
+  width: 20vw;
+  height: 20vw;
+}
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+  width: 9vw;
+}

@@ -1,0 +1,128 @@
+.calendar-container {
+  max-width: 65vw;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  border: 1px solid rgb(147, 6, 241);
+  display: flex;
+  box-sizing: border-box;
+}
+
+.week {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.week section {
+  width: 50vw;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: hotpink;
+  border: 1px solid black;
+}
+
+span {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.notes {
+  width: 15vw;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: maroon;
+}
+
+.reminder {
+  width: 15vw;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: magenta;
+}
+
+.special-dates {
+  width: 15vw;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.Box-1 {
+  display: flex;
+  width: 50vw;
+  background-color: blueviolet;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.Box-2 {
+  display: flex;
+  width: 10vw;
+  box-sizing: border-box;
+  background-color: chocolate;
+  justify-content: center;
+}
+.Box-3 {
+  display: flex;
+  width: 10vw;
+  box-sizing: border-box;
+  background-color: chocolate;
+  justify-content: center;
+}
+.Box-4 {
+  display: flex;
+  width: 10vw;
+  box-sizing: border-box;
+  background-color: chocolate;
+  justify-content: center;
+}
+.Box-5 {
+  display: flex;
+  width: calc(50vw / 5);
+  box-sizing: border-box;
+  background-color: chocolate;
+  justify-content: center;
+}
+.Box-6 {
+  display: flex;
+  width: 10vw;
+  box-sizing: border-box;
+  background-color: chocolate;
+  justify-content: center;
+}
+.Box-7 {
+  display: flex;
+  width: 50vw;
+  background-color: blue;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.Box-8 {
+  display: flex;
+  width: 25vw;
+  box-sizing: border-box;
+  background-color: green;
+  justify-content: center;
+}
+.Box-9 {
+  display: flex;
+  width: 25vw;
+  box-sizing: border-box;
+  background-color: green;
+  justify-content: center;
+}
