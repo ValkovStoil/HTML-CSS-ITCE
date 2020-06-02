@@ -1,0 +1,36 @@
+p.foodAndMusic{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    font-size: 20px;
+}
+h2.topSongs{
+    color: greenyellow;
+    text-decoration: underline;
+}
+.songs{
+    color: blue;
+    text-decoration: underline;
+}
+
+.songsList li{
+    color: red;
+    font-style: italic;
+}
+
+.food{
+    color:red;
+}
+
+div.footer{
+    text-align: center;
+    width: 300px;
+    border: 5px solid yellowgreen;
+    padding: 5px;
+    margin: 10px;
+    height: 60px;
+}
+
+.creator{
+    text-align: center;
+    color: rgb(189, 97, 11);
+}

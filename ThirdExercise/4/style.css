@@ -1,0 +1,81 @@
+footer{
+    position: absolute;
+    border: 1px solid black;
+    width: 1355px;
+    height: 250px;
+    bottom: 5px;
+    padding-left: 75.95px;
+    padding-right: 75.95px;
+    background-color: #F2F2F2;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 15px;
+}
+
+.bottom nav{
+    padding: 0px 10px 0px 80px;
+}
+
+.bottom nav li{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+
+i{
+    size: 3em;
+}
+
+li{
+    list-style: none;
+    font-size: 9px;
+}
+
+.top{
+    position: absolute;
+    padding: 0px 10px 30px 110px;
+}
+
+.top nav{
+    display: inline-block;
+    margin-left: 20px;
+    width: 136px;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+}
+
+.top nav li{
+    line-height: 22px;
+}
+
+a{
+    color: #616161;
+    background-color: transparent;
+    text-decoration: none;
+    size: 10px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.column-1{
+    left: 195px;
+}
+
+.column-2{
+    left: 420px;
+}
+.column-3{
+    left: 600px;
+}
+.column-4{
+    left: 800px;
+}
+.column-5{
+    left: 950px;
+}
+.column-6{
+    left: 1200px;
+}
+

@@ -1,0 +1,26 @@
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+article{
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+h5{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+font-size: 23px;
+width: 350px;
+font-family: fantasy, sans-serif;
+text-align: center;
+}

@@ -1,0 +1,11 @@
+main{
+    background-color: #0c5f5f;
+    color: #ffffff;
+    border-radius: 12px;
+    font-family: Helvetica, sans-serif;
+    width:  60%;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 20%;
+}

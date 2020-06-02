@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("bg.jpg");
+    position: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 155px;
+}
+
+.btn:hover{
+background-color: transparent;
+color: rgb(243, 53, 20);
+}
+
+section{
+    position: absolute;
+    width: 440px;
+    top: 280px;
+    margin: 0px 0px 0px 20px;
+}

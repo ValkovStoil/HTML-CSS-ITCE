@@ -1,0 +1,13 @@
+body{
+    background-image: url(/Images/TunderStorm.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.introduction{
+    color: #0de9e9;
+}
+.mail{
+    color: #e9ec14;
+    text-decoration-line: underline;
+    
+}
