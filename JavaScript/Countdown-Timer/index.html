@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <aside class="events-container">
+        <p>Events</p>
+    </aside>
+    <div>
+        <div class="clock-input">
+            <div class="event-name">
+                <input type="text" class="user-event-name" id="event" placeholder="Event Name">
+            </div>
+            <input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+            <div class="starting-countdown">
+                <button id="start-timer">Add</button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="container-event-name">
+            </div>
+            <div class="clock-column">
+                <p class="clock-day clock-timer"></p>
+                <p class="clock-label">Days</p>
+            </div>
+
+            <div class="clock-column">
+                <p class="clock-hours clock-timer"></p>
+                <p class="clock-label">Hours</p>
+            </div>
+
+            <div class="clock-column">
+                <p class="clock-minutes clock-timer"></p>
+                <p class="clock-label">Minutes</p>
+            </div>
+
+            <div class="clock-column">
+                <p class="clock-seconds clock-timer"></p>
+                <p class="clock-label">Seconds</p>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
