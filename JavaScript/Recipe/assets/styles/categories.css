@@ -1,0 +1,89 @@
+.search {
+  height: 40%;
+  width: 20%;
+  display: flex;
+}
+
+#search-box {
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+#search-button {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 100%;
+  display: flex;
+}
+
+#search-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#back {
+  display: none;
+  background-color: rgba(131, 70, 9, 0.781);
+}
+
+#dish ul,
+li {
+  list-style: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#dish p {
+  color: rgb(178, 221, 37);
+}
+#dish {
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 5px;
+  background-color: rgba(131, 70, 9, 0.781);
+  color: rgb(255, 255, 255);
+}
+
+#dish img {
+  width: 50%;
+  border: 2px solid rgb(178, 221, 37);
+}
+
+#dish span {
+  width: 50%;
+  font-size: 50px;
+  margin-top: 10px;
+  color: rgb(178, 221, 37);
+  margin-left: 70px;
+}
+#igradients {
+  width: 40%;
+}
+#igradients p {
+  text-align: center;
+  font-size: 40px;
+}
+
+#preparation-steps {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#preparation-steps p {
+  text-align: center;
+  font-size: 45px;
+}
+#preparation-steps li {
+  display: flex;
+  justify-content: center;
+}

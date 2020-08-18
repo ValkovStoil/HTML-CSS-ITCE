@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="../styles/categories.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lamb</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <header class="header">
+            <p>
+                <i class="fa fa-cutlery"></i> <span id="title">Lamb</span> <i class="fa fa-spoon"></i>
+            </p>
+            <nav class="search">
+                <input type="text" name="" id="search-box" placeholder="search by name"
+                    onkeydown="searchWithEnter(event)">
+                <button id="search-button">
+                    <img src="../images/search-512.png" width="90" height="50" alt="submit" />
+                </button>
+            </nav>
+            <button id="add-recipe">ADD RECIPE</button>
+            <button id="back">Go Back</button>
+        </header>
+        <ul id="recipe-container"></ul>
+        <ul id="search-container"></ul>
+    </div>
+
+    <script src="../scripts/categories.js"></script>
+    <script src="../scripts/search.js"></script>
+</body>
+
+
+</html>
