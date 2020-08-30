@@ -1,0 +1,22 @@
+#logout {
+  display: block;
+}
+
+main {
+  flex-wrap: wrap;
+  justify-content: unset;
+}
+
+.stats-container {
+  margin: 20px 0px 0px 20px;
+  min-height: 240px;
+  width: 30%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+#playe-quizz {
+  position: absolute;
+  margin-top: 10px;
+}

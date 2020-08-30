@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <title>Quiz Game</title>
+</head>
+
+<body>
+
+    <header>
+        <span id="welcome">Welcome to my Quiz game!</span>
+        <div class="button-container">
+            <a href="./assets/htmls/login.html">
+                <button class="btn" id="login">Login</button>
+            </a>
+            <a href="./assets/htmls/register.html">
+                <button class="btn" id="register">Register</button>
+            </a>
+            <button class="btn" id="logout">Logout</button>
+            <button class="btn" id="profile">My Profile</button>
+
+        </div>
+    </header>
+    <main>
+        <h1 id="loginMessage">You have to "Login" befor playng the game</h1>
+
+        <div id="category-container">
+            <form>
+                <label for="categories">Categories</label>
+                <select name="categories" id="categories">
+                    <option value="cat1">Animals</option>
+                    <option value="cat2">Japanese Anime and Manga</option>
+                    <option value="cat3">Video Games</option>
+                    <option value="cat4">Computers</option>
+                </select>
+                <br><br>
+                <button type="submit" value="Start!" id="start-game">Start Game!</button>
+            </form>
+
+        </div>
+
+        <div id="quiz-container">
+            <div>
+                <p id="category"></p>
+            </div>
+            <div class="question box">
+                <p><span id="question"></span></p>
+            </div>
+            <ul class="answers">
+                <li class="answer box">
+                    <p><span>a</span>
+                    <p class="choice" onclick="select(event)"></p>
+                    </p>
+                </li>
+                <li class="answer box">
+                    <p><span>b</span>
+                    <p class="choice" onclick="select(event)"></p>
+                    </p>
+                </li>
+                <li class="answer box">
+                    <p><span>c</span>
+                    <p class="choice" onclick="select(event)"></p>
+                    </p>
+                </li>
+                <li class="answer box">
+                    <p><span>d</span>
+                    <p class="choice" onclick="select(event)"></p>
+                    </p>
+                </li>
+            </ul>
+            <button class="box" id="next">Next<span>›</span></button>
+        </div>
+
+        <div id="score-container">
+            <h1>User name here</h1>
+            <div>
+                <h3 id="category-name">Game name here</h3>
+                <h3 id="score">Game score here</h3>
+                <h3 id="success">Success</h3>
+                <h3 id="time-played">Time Played</h3>
+            </div>
+            <div class="score-buttons">
+                <button class="btn score-button" id="play-again">Play Again!</button>
+                <button class="btn score-button" id="share">Share result!</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>

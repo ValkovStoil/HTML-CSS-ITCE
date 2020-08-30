@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>Login form</title>
+</head>
+
+<body>
+    <header>
+        <span>Login to my Quiz game!</span>
+        <div class="button-container">
+            <a href="./register.html">
+                <button class="btn" id="register">Register</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" id="userName" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+
+                <button id="login" type="submit">Login</button>
+            </div>
+
+            <div class="container">
+                <button type="button" class="cancelbtn" onclick="done()">Cancel</button>
+                <span class="psw">Forgot <a href="./forgotenPassword.html">password?</a></span>
+            </div>
+        </form>
+    </main>
+    <script src="../scripts/login.js"></script>
+</body>
+
+</html>
