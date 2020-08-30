@@ -21,7 +21,6 @@
   }
   let recipeName;
   function searchRecipe() {
-    bodyContainer.lastChild.remove();
     recipeName = searchValue.value;
     mealTitle.innerHTML = "Search";
     searchContantainer.innerHTML = "";
@@ -43,7 +42,6 @@
       recipes.forEach((element) => {
         let name = element.strMeal;
         let img = element.strMealThumb;
-
         searchContantainer.append(createRecipeForm(name, img));
       });
     } else {
