@@ -13,7 +13,6 @@
   const listOfAnswers = document.getElementsByClassName("answer");
   const scoreContainer = document.getElementById("score-container");
   const showCategory = document.getElementById("category");
-  const shareToSocialMedia = document.getElementById("share");
 
   const form = document.getElementsByTagName("form")[0];
   form.addEventListener("click", (event) => {
@@ -24,7 +23,6 @@
   startGameButton.addEventListener("click", startGame);
   profileButton.addEventListener("click", showProfile);
   playAgainButton.addEventListener("click", playAgain);
-  shareToSocialMedia.addEventListener("click", shareResults);
 
   let animalsUrl =
     "https://opentdb.com/api.php?amount=10&category=27&type=multiple";
@@ -54,10 +52,6 @@
 
   function playAgain() {
     return (location.href = "/index.html");
-  }
-
-  function shareResults() {
-    return (location.href = `https://www.facebook.com/sharer.php?u=${window.location}`);
   }
 
   let currentCategory = "";

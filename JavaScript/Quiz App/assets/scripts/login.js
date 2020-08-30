@@ -2,11 +2,6 @@
   const loginButton = document.getElementById("login");
   const userName = document.getElementById("userName");
   const password = document.getElementById("password");
-  const form = document.getElementsByTagName("form")[0];
-
-  form.addEventListener("click", (event) => {
-    event.preventDefault();
-  });
 
   loginButton.addEventListener("click", loginUser);
 

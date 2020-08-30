@@ -12,6 +12,10 @@ button {
   color: rgb(66, 246, 255);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   width: 100%;
