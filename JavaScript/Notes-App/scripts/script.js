@@ -251,10 +251,11 @@
       container = container.parentElement;
     }
 
+    let isDark = checkBodyBackgroundColor();
+
     if (spanIconChange === "✍️") {
       e.target.innerHTML = "👌";
       let originalForm = e.target.parentElement.parentElement.nextSibling;
-      let isDark = checkBodyBackgroundColor();
       let h1 = originalForm.firstChild;
       let code = h1.nextSibling.firstChild;
 
@@ -278,7 +279,7 @@
         newTextArray.push(element.replace(/(\r\n|\n|\r|#)/gm, "").trim());
       });
 
-      //TODO remove text area and replace the new info
+      //remove text area and replace the new info
       hOneElement.innerHTML = newTextArray[0];
       codeElement.innerHTML = newTextArray[1];
 
@@ -299,6 +300,13 @@
         if (storeElementData[i].date === dataOfTheForm) {
           storeElementData[i] = noteInfo;
         }
+      }
+
+      let originalForm = e.target.parentElement.parentElement.nextSibling;
+      let h1 = originalForm.firstChild;
+
+      if (!isDark) {
+        h1.style.color = "#FFFFFF";
       }
 
       localStorage.setItem("storedData", JSON.stringify(storeElementData));
