@@ -28,6 +28,12 @@
     if (user) {
       //check if the input password is the same
       if (user.password === password.value) {
+        const form = document.getElementsByTagName("form")[0];
+
+        form.addEventListener("click", (event) => {
+          event.preventDefault();
+        });
+
         //change the isLoggedIn to true
         users.forEach((person) => {
           if (person.name === userName.value) {

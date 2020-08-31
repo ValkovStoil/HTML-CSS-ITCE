@@ -38,7 +38,6 @@
 
     //Check if we already have a user with that name
     const alreadyExist = users.some((u) => u.name === userNameInput.value);
-
     if (alreadyExist) {
       alert("That user already exist");
       userNameInput.value = "";

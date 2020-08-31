@@ -14,10 +14,10 @@
   const scoreContainer = document.getElementById("score-container");
   const showCategory = document.getElementById("category");
 
-  const form = document.getElementsByTagName("form")[0];
-  form.addEventListener("click", (event) => {
-    event.preventDefault();
-  });
+  // const form = document.getElementsByTagName("form")[0];
+  // form.addEventListener("click", (event) => {
+  //   event.preventDefault();
+  // });
 
   logoutButton.addEventListener("click", logoutUser);
   startGameButton.addEventListener("click", startGame);
@@ -59,6 +59,7 @@
   let endTime = 0;
   let user = usersDataBase.filter((u) => u.isLoggedIn === true)[0];
 
+  console.log(user);
   if (user) {
     loginButton.style.display = "none";
     registerButton.style.display = "none";
